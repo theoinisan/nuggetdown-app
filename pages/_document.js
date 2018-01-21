@@ -17,6 +17,7 @@ export default class MyDocument extends Document {
         <Head>
           <title>Nugget Down</title>
           <style>{`body{margin: 0; padding: 0;}`}</style>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           {this.props.styleTags}
         </Head>
         <body>
