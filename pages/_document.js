@@ -17,6 +17,10 @@ export default class MyDocument extends Document {
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Raleway"
+            rel="stylesheet"
+          />
           <title>Nugget Down</title>
           <style>{`body{margin: 0; padding: 0;}`}</style>
           {this.props.styleTags}
