@@ -1,0 +1,30 @@
+{
+  "name": "nuggetdown-app",
+  "version": "1.0.0",
+  "description": "Nugget Down Web Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoinisan/nuggetdown-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoinisan/nuggetdown-app/issues"
+  },
+  "homepage": "https://github.com/theoinisan/nuggetdown-app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "next": "^4.2.3",
+    "next-routes": "^1.2.0",
+    "nuggetdown-ui": "^1.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
